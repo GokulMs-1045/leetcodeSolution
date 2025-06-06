@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0038-count-and-say) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Stack
 |  |
