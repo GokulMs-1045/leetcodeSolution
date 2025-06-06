@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0038-count-and-say) |
+| [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Stack
 |  |
@@ -16,4 +17,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+## Hash Table
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
