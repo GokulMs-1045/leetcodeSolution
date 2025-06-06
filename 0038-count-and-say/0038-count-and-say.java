@@ -5,8 +5,7 @@ class Solution {
             return "1";
 
         String prev = countAndSay(n - 1);
-        String ans = "";
-
+        StringBuilder ans = new StringBuilder();
         int len = prev.length();
         int count = 1;
 
@@ -17,15 +16,15 @@ class Solution {
 
             else{
 
-                ans += (char) ('0' + count);
-                ans += prev.charAt(i - 1);
+                ans.append(count);
+                ans.append(prev.charAt(i - 1));
                 count = 1;
             }
         }
 
-        ans += (char) ('0' + count);
-        ans += prev.charAt(len - 1);
+        ans.append(count);
+        ans.append(prev.charAt(len - 1));
 
-        return ans;
+        return ans.toString();
     }
 }
