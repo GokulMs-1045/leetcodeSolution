@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0038-count-and-say) |
+| [0125-valid-palindrome](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Stack
@@ -63,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
