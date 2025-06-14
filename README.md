@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0198-house-robber) |
 | [1013-fibonacci-number](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1013-fibonacci-number) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0198-house-robber) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
