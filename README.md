@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Hash Table
 |  |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0518-coin-change-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1013-fibonacci-number](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1013-fibonacci-number) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 ## Memoization
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0518-coin-change-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Combinatorics
