@@ -1,27 +1,22 @@
 class Solution {
-
-    private int func(int ind, int[] nums, int[] dp){
-
-        if(ind == 0)
-            return nums[ind];
-
-        if(ind < 0)
-            return 0;
-
-        if(dp[ind] != - 1)
-            return dp[ind];
-
-        int left = nums[ind] + func(ind - 2, nums, dp);
-        int right = 0 + func(ind - 1, nums, dp);
-
-        return dp[ind] = Math.max(left, right);
-    }
-
     public int rob(int[] nums) {
+        
+        int n = nums.length;
+        int[] dp = new int[n];
 
-        int[] dp = new int[nums.length + 1];
-        Arrays.fill(dp, - 1);
+        dp[0] = nums[0];
 
-        return func(nums.length - 1, nums, dp);
+        for(int i = 1 ; i < n ; i++){
+
+            int pick = nums[i];
+
+            if(i > 1)
+            pick += dp[i - 2];
+            int nonPick = dp[i - 1];
+
+            dp[i] = Math.max(pick, nonPick);
+        }
+
+        return dp[n - 1];
     }
 }
