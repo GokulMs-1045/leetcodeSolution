@@ -1,31 +1,30 @@
 class Solution {
-
-    private int func(int row, int col, int[][] grid, int[][]dp){
-        
-        if(row < 0 || col < 0)
-            return Integer.MAX_VALUE;
-
-        if(row == 0 && col == 0)
-            return grid[row][col];
-
-        if(dp[row][col] != - 1)
-            return dp[row][col];
-
-        int top = func(row - 1, col, grid, dp);
-        int left = func(row, col - 1, grid, dp);
-
-        return dp[row][col] = grid[row][col] + Math.min(top, left);
-    }
-
     public int minPathSum(int[][] grid) {
-
         int m = grid.length;
         int n = grid[0].length;
-        int[][] dp = new int[m + 1][n + 1];
+        int[][] dp = new int[m][n];
 
-        for(int[] row : dp)
-            Arrays.fill(row, - 1);
+        for (int row = 0; row < m; row++) {
+            for (int col = 0; col < n; col++) {
 
-        return func(m - 1, n - 1, grid, dp);
+                int up = Integer.MAX_VALUE;
+                int left = Integer.MAX_VALUE;
+
+                if (row == 0 && col == 0) {
+                    dp[row][col] = grid[row][col];
+                    continue;
+                }
+
+                if (row > 0)
+                    up = grid[row][col] + dp[row - 1][col];
+
+                if (col > 0)
+                    left = grid[row][col] + dp[row][col - 1];
+
+                dp[row][col] = Math.min(up, left);
+            }
+        }
+
+        return dp[m - 1][n - 1];
     }
 }
