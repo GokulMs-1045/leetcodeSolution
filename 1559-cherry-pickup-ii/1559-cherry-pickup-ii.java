@@ -1,55 +1,50 @@
 class Solution {
-
-    private int func(int row, int col1, int col2, int m, int n, int[][] matrix, int[][][] dp){
-
-        if (col1 < 0 || col1 >= n || col2 < 0 || col2 >= n)
-            return (int)(-1e9);
-
-        if(row ==  m - 1){
-
-            if(col1 == col2)
-                return matrix[row][col1];
-
-            else 
-                return matrix[row][col1] + matrix[row][col2];
-        }
-
-        if(dp[row][col1][col2] != - 1)
-            return dp[row][col1][col2];
-
-        int max = Integer.MIN_VALUE;
-
-        for(int i = - 1 ; i <= 1 ; i++){
-            for(int j = - 1 ; j <= 1; j++){
-
-                int ans;
-
-                if (col1 == col2)
-                    ans = matrix[row][col1];
-                else
-                    ans = matrix[row][col1] + matrix[row][col2];
-
-                int next = func(row + 1, col1 + i, col2 + j, m, n, matrix, dp);
-
-                // Update the maximum result
-                max = Math.max(max, ans + next);
-            }
-        }
-        return dp[row][col1][col2] = max;
-    }
-
     public int cherryPickup(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
-        int dp[][][] = new int[m][n][n];
+        int n = grid.length;
+        int m = grid[0].length;
+        
+        int dp[][][] = new int[n][m][m];
 
-        // Initialize the dp array with -1
-        for (int row1[][] : dp) {
-            for (int row2[] : row1) {
-                Arrays.fill(row2, -1);
+        for(int j1 = 0 ; j1 < m ; j1++){
+            for(int j2 = 0 ; j2 < m ; j2++){
+
+                if(j1 == j2)
+                    dp[n - 1][j1][j2] = grid[n - 1][j1];
+                
+                else
+                    dp[n - 1][j1][j2] = grid[n - 1][j1] + grid[n - 1][j2];
             }
         }
 
-        return func(0, 0, n - 1, m, n, grid, dp);
+       for(int i = n - 2 ; i >= 0 ; i--){
+            for(int j1 = 0 ; j1 < m ; j1++){
+                for(int j2 = 0 ; j2 < m ; j2++){
+
+                    int maxi = Integer.MIN_VALUE;
+
+                    for (int di = -1; di <= 1; di++) {
+                        for (int dj = -1; dj <= 1; dj++) {
+                            int ans;
+
+                            if (j1 == j2)
+                                ans = grid[i][j1];
+                            else
+                                ans = grid[i][j1] + grid[i][j2];
+
+                            if((j1 + di < 0 || j1 + di >= m) || (j2 + dj < 0 || j2 + dj >= m))
+                                ans += -1e9;
+
+                            else
+                                ans += dp[i + 1][j1 + di][j2 + dj];
+
+                            maxi = Math.max(maxi, ans);
+                        }
+                    }
+                    dp[i][j1][j2] = maxi;
+                }
+            }
+       }
+
+    return dp[0][0][m - 1];
     }
 }
