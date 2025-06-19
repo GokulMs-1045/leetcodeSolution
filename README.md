@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0518-coin-change-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1013-fibonacci-number) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 ## Memoization
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0518-coin-change-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Combinatorics
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
+| [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 ## Two Pointers
 |  |
