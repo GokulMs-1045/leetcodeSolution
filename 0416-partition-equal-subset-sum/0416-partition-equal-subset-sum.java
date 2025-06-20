@@ -1,43 +1,37 @@
 class Solution {
-
-    private boolean func(int ind, int target, int[] nums, int[][] dp){
-
-        if(ind == 0)
-            return nums[0] == target;
-
-        if(target == 0)
-            return true;
-
-        if(dp[ind][target] != - 1)
-            return dp[ind][target] == 0 ? false : true;
-
-        boolean notTake = func(ind - 1, target, nums, dp);
-        boolean take = false;
-
-        if(target >= nums[ind])
-            take = func(ind - 1, target - nums[ind], nums, dp);
-
-        dp[ind][target] = take || notTake ? 1 : 0;
-
-        return take || notTake;
-    }
-
     public boolean canPartition(int[] nums) {
-        
+        int totSum = 0;
         int n = nums.length;
-        int target = 0;
+        for (int i = 0; i < n; i++)
+            totSum += nums[i];
 
-        for(int i = 0 ; i < n ; i++)
-            target += nums[i];
-
-        if(target % 2 == 1)
+        if (totSum % 2 == 1)
             return false;
-        
-        int[][] dp = new int[n][target + 1];
 
-        for(int[] row : dp)
-            Arrays.fill(row, - 1);
+        else {
+            int k = totSum / 2;
 
-        return func(n - 1, target / 2 , nums, dp);
+            boolean[][] dp = new boolean[n][k + 1];
+
+            for(int i = 0 ; i < n ; i++)
+            dp[i][0] = true;
+
+            if(nums[0] <= k)
+                dp[0][nums[0]] = true;
+
+            for(int ind = 1 ; ind < n ; ind++){
+                for(int i = 1 ; i <= k ; i++){
+
+                    boolean notTaken = dp[ind - 1][i];
+                    boolean taken = false;
+
+                    if(nums[ind] <= i)
+                        taken = dp[ind - 1][i - nums[ind]];
+
+                    dp[ind][i] = taken || notTaken;
+                }
+            }
+            return dp[n - 1][k];
+        }
     }
 }
