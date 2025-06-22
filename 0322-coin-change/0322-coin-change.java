@@ -1,41 +1,30 @@
 class Solution {
+    public int coinChange(int[] coins, int amount) {
+        int n = coins.length;
 
-    private int func(int ind, int target, int[] coins, int[][] dp){
+        int[][] dp = new int[n][amount + 1];
 
-        if(target == 0)
-            return 0;
-
-        if(ind == 0){
-
-            if(target % coins[0] == 0)
-                return target / coins[0];
-
+        for (int i = 0; i <= amount; i++) {
+            if (i % coins[0] == 0)
+                dp[0][i] = i / coins[0];
             else
-                return (int) 1e9;
+                dp[0][i] = (int)1e9;
         }
 
-        if(dp[ind][target] != - 1)
-            return dp[ind][target];
+        for(int ind = 1 ; ind < n ; ind++){
+            for(int target = 0 ; target <= amount ; target++){
 
-        int notPick = 0 + func(ind - 1, target, coins, dp);
-        int pick = (int) 1e9;
+                int notTake = dp[ind - 1][target];
+                int take = (int)1e9;
 
-        if(target >= coins[ind])
-            pick = 1 + func(ind, target - coins[ind], coins, dp);
+                if (coins[ind] <= target)
+                    take = 1 + dp[ind][target - coins[ind]];
 
-        dp[ind][target]= Math.min(pick, notPick);
+                dp[ind][target] = Math.min(notTake, take);
+            }
+        }
 
-        return dp[ind][target];
-    }
-
-    public int coinChange(int[] coins, int amount) {
-        
-        int[][] dp = new int[coins.length][amount + 1];
-
-        for(int[] row : dp)
-            Arrays.fill(row, - 1);
-
-        int ans =  func(coins.length - 1 , amount , coins, dp);
+        int ans = dp[n - 1][amount];
 
         if (ans >= (int)1e9)
             return -1;
