@@ -1,28 +1,27 @@
 class Solution {
-    private int func(int[] arr, int ind, int T, int[][] dp) {
-
-        if (ind == 0) 
-            return (T % arr[0] == 0) ? 1 : 0;
-
-        if (dp[ind][T] != -1)
-            return (int)dp[ind][T];
-
-        int notTaken = func(arr, ind - 1, T, dp);
-
-        int taken = 0;
-        if (arr[ind] <= T)
-            taken = func(arr, ind, T - arr[ind], dp);
-
-        return dp[ind][T] = notTaken + taken;
-    }
+    public long MOD = (long)1e9 + 7;
 
     public int change(int amount, int[] coins) {
+        int N = coins.length;
+        int[][] dp = new int[N][amount + 1];
 
-        int[][] dp = new int[coins.length][amount + 1];
+        for (int i = 0; i <= amount; i++) {
+            if (i % coins[0] == 0)
+                dp[0][i] = 1;
+        }
 
-        for (int[] row : dp)
-            Arrays.fill(row, -1);
+        for (int ind = 1; ind < N; ind++) {
+            for (int target = 0; target <= amount; target++) {
+                int notTaken = dp[ind - 1][target];
+                int taken = 0;
 
-        return func(coins, coins.length - 1, amount, dp);
+                if (coins[ind] <= target)
+                    taken = dp[ind][target - coins[ind]];
+
+                dp[ind][target] = (notTaken + taken);
+            }
+        }
+        
+        return dp[N - 1][amount];
     }
 }
