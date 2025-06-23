@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
 | [1129-longest-string-chain](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1129-longest-string-chain) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
+| [1580-shuffle-the-array](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1580-shuffle-the-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Combinatorics
 |  |
