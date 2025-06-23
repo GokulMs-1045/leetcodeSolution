@@ -1,21 +1,25 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
-        int[][] dp = new int[n + 1][n + 1]; // dp[ind][prev+1]
+        
+        List<Integer> temp = new ArrayList<>();
+        temp.add(nums[0]);
 
-        for (int ind = n - 1; ind >= 0; ind--) {
-            for (int prev = ind - 1; prev >= -1; prev--) {
+        for(int i = 1 ; i < n ; i++){
 
-                int notTake = dp[ind + 1][prev + 1];
-                int take = 0;
+            if(nums[i] > temp.get(temp.size() - 1))
+                temp.add(nums[i]);
 
-                if (prev == -1 || nums[ind] > nums[prev])
-                    take = 1 + dp[ind + 1][ind + 1];
+            else{
+                int ind = Collections.binarySearch(temp, nums[i]);
 
-                dp[ind][prev + 1] = Math.max(take, notTake);
+                if(ind < 0)
+                    ind =  - (ind + 1);
+
+                temp.set(ind, nums[i]);
             }
         }
 
-        return dp[0][0];
+        return temp.size();
     }
 }
