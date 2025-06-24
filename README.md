@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0038-count-and-say) |
+| [0072-edit-distance](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0516-longest-palindromic-subsequence) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0072-edit-distance) |
 | [0120-triangle](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
