@@ -1,29 +1,19 @@
 class Solution {
 
-        private void bfs(int node, List<Integer> adjLs[], boolean[] vis) {
+       private void dfs(int node, List<Integer> adjLs[], boolean[] vis) {
         
-        vis[node] = true;
+        // Mark the node as visited
+        vis[node] = true; 
         
-        Queue<Integer> q = new LinkedList<>();
-        
-        q.add(node); 
-        
-        while (!q.isEmpty()) {
-
-            int i = q.poll();
+        // Traverse its unvisited neighbours
+        for (int it : adjLs[node]) {
             
-            for (int adjNodes : adjLs[i]) {
-                
-                if (!vis[adjNodes]) {
-                    
-                    vis[adjNodes] = true;
-                    
-                    q.add(adjNodes);
-                }
+            if (!vis[it]) {
+                // Recursively perform DFS
+                dfs(it, adjLs, vis); 
             }
         }
     }
-
     public int findCircleNum(int[][] isConnected) {
         int V = isConnected.length;
         List<Integer>[] adjLs = new ArrayList[V];
@@ -49,7 +39,7 @@ class Solution {
 
             if(!vis[i]){
                 cnt++;
-                bfs(i, adjLs, vis);
+                dfs(i, adjLs, vis);
             }
         }
 
