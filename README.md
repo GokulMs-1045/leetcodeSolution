@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
 | [1129-longest-string-chain](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1129-longest-string-chain) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 | [1580-shuffle-the-array](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1580-shuffle-the-array) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 ## Two Pointers
 |  |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
 | ------- |
