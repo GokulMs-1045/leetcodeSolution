@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
@@ -174,13 +175,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
 ## Union Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
 ## Graph
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
 <!---LeetCode Topics End-->
