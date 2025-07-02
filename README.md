@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0542-01-matrix) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0130-surrounded-regions) |
+| [0542-01-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
@@ -146,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
