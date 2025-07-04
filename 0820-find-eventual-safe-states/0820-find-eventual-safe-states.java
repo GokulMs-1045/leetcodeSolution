@@ -1,18 +1,19 @@
 class Solution {
 
-    private boolean dfs(int node, int[][] graph, boolean[] vis, boolean[] check, boolean[] path){
+    private boolean dfs(int node, boolean[] vis, boolean[] check, boolean[] path, int[][] graph){
 
         vis[node] = true;
-        path[node] = true;
         check[node] = false;
+        path[node] = true;
 
         for(int it : graph[node]){
 
             if(!vis[it]){
-                if(dfs(it, graph, vis, check, path))
+
+                if(dfs(it, vis, check, path, graph))
                     return true;
             }
-            
+
             else if(path[it])
                 return true;
         }
@@ -26,22 +27,22 @@ class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
 
         int V = graph.length;
-        
-        boolean[] path = new boolean[V];
         boolean[] vis = new boolean[V];
         boolean[] check = new boolean[V];
-
-        List<Integer> ans = new ArrayList<>();
+        boolean[] path = new boolean[V];
 
         for(int i = 0 ; i < V ; i++){
 
             if(!vis[i])
-                dfs(i, graph, vis, check, path);
+                dfs(i, vis, check, path, graph);
         }
 
-        for(int i = 0 ; i < V ; i++)
+        List<Integer> ans = new ArrayList<>();
+
+        for(int i = 0 ; i < V ; i++){
             if(check[i])
                 ans.add(i);
+        }
 
         return ans;
     }
