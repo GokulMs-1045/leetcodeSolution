@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
 | [1580-shuffle-the-array](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1580-shuffle-the-array) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Combinatorics
 |  |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1559-cherry-pickup-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1559-cherry-pickup-ii) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 ## Two Pointers
 |  |
 | ------- |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 ## Backtracking
 |  |
 | ------- |
@@ -168,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0300-longest-increasing-subsequence) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 ## Sorting
 |  |
 | ------- |
@@ -192,12 +196,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0820-find-eventual-safe-states) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0801-is-graph-bipartite) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
@@ -217,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1753-path-with-minimum-effort](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1753-path-with-minimum-effort) |
 ## Shortest Path
 |  |
 | ------- |
