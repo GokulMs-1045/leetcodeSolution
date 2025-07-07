@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Greedy
 |  |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0130-surrounded-regions) |
+| [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0207-course-schedule](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
@@ -231,4 +233,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
