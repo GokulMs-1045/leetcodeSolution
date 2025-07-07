@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Greedy
 |  |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0547-number-of-provinces) |
@@ -240,9 +242,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
