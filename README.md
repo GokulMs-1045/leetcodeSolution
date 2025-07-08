@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0173-binary-search-tree-iterator) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Greedy
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0208-implement-trie-prefix-tree) |
 ## Trie
 |  |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0450-delete-node-in-a-bst) |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0450-delete-node-in-a-bst) |
@@ -275,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0450-delete-node-in-a-bst) |
@@ -285,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/GokulMs-1045/leetcodeSolution/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
